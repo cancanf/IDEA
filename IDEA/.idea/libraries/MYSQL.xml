@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="MYSQL">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../MYSQL" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
