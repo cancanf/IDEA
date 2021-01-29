@@ -1,6 +1,5 @@
 package Javaji基础.重载和重写的辨析;
 
-import Javaji基础.Cat;
 
 public class Text {
     public int add(int a,int b){
