@@ -11,7 +11,7 @@ public class P_1 {
         Scanner in = new Scanner(System.in);
         String password = "123456789";
         String username = "admin";
-        System.out.println(1);
+        System.out.println(2);
         System.out.println("请输入用户名: ");
         String enterUserName = in.nextLine();
         System.out.println("请输入密码: ");
