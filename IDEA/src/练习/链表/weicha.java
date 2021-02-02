@@ -9,10 +9,11 @@ public class weicha {
         ListNode head = new ListNode();
         ListNode end = head;
         while(!temp.equals("#")){
-            ListNode node = new ListNode(temp);
 
+            ListNode node = new ListNode(temp);
             end.next = node;
             end = node;
+
             temp = in.next();
         }
     }

@@ -10,6 +10,7 @@ public class P_1 {
 
     private static void login() {
         Scanner in = new Scanner(System.in);
+
         String password = "123456789";
         String username = "admin";
         System.out.println("请输入用户名: ");

@@ -10,9 +10,11 @@ public class toucha {
         ListNode head = new ListNode();
 
         while(!temp.equals("#")){
+
             ListNode node = new ListNode(temp);
             node.next = head.next;
             head.next = node;
+
             temp = in.next();
         }
     }
