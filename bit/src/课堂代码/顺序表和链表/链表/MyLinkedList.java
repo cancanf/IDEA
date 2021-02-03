@@ -119,7 +119,7 @@ public class MyLinkedList {
             for (int j = 0; j < index - 1; j++) {
                 i = i.next;
             }
-            newnode.next = i.next.next;
+            newnode.next = i.next;
             i.next = newnode;
         }
         return true;
