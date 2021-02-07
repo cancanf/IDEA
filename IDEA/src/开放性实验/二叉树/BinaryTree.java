@@ -3,9 +3,9 @@ package 开放性实验.二叉树;
 class BinaryTreeNode {
     int data;
 
-    BinaryTreeNod left;
+    node left;
 
-    BinaryTreeNod right;
+    node right;
 
     public BinaryTreeNode(int data) {
         this.data = data;
@@ -16,7 +16,7 @@ class BinaryTreeNode {
 
 public class BinaryTree {
 
-    private BinaryTreeNod root;
+    private node root;
 
     public BinaryTree() {
         this.root = null;
@@ -24,13 +24,13 @@ public class BinaryTree {
 
     public void insertIntoTree(int data) {
 
-        BinaryTreeNod newNode = new BinaryTreeNod(data);
+        node newNode = new node(data);
 
         if (root == null) {
             root = newNode;
         } else {
-            BinaryTreeNod currentNode = root;
-            BinaryTreeNod parentNode;
+            node currentNode = root;
+            node parentNode;
             while (currentNode != null) {
                 if (data < currentNode.data) {
                     parentNode = currentNode;
@@ -53,11 +53,11 @@ public class BinaryTree {
         return root == null;
     }
 
-    public BinaryTreeNod search(int data) {
+    public node search(int data) {
         return BinaryTreeSearch(root, data);
     }
 
-    public BinaryTreeNod BinaryTreeSearch(BinaryTreeNod node, int data) {
+    public node BinaryTreeSearch(node node, int data) {
         if (node == null)
             return null;
         if (data == node.data) {
@@ -82,7 +82,7 @@ public class BinaryTree {
         binaryTree.insertIntoTree(89);
         binaryTree.insertIntoTree(23);
 
-        BinaryTreeNod node = binaryTree.search(89);
+        node node = binaryTree.search(89);
         System.out.println(node.data);
 
     }

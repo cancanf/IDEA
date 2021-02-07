@@ -134,7 +134,7 @@ public class kuilei {
 //        i.next = i.next.next;
 //        return true;
 //
-        for (; i != null; i = i.next) {
+        for (; i.next != null; i = i.next) {
             if (i.next.data == val) {
                 i.next = i.next.next;
                 return true;
@@ -174,6 +174,7 @@ public class kuilei {
      */
     public boolean removeIndex(int index) {
         if (index < 0 || index > size) {
+            System.out.println("下标越界!");
             return false;
         }
         Node i = head;

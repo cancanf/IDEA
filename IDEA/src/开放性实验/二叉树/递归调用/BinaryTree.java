@@ -9,7 +9,7 @@ public class BinaryTree {
         root.addchild(4);
         root.addchild(5);
         TreeNode p = root;
-        printTree(p.right);
+        printTree(p);
     }
 
     private static void printTree(TreeNode p) {

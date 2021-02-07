@@ -1,60 +1,58 @@
 package 开放性实验.二叉树;
 
-class BinaryTreeNod {
+class node {
     int data;
 
-    BinaryTreeNod left;
+    node left;
 
-    BinaryTreeNod right;
+    node right;
 
-    public BinaryTreeNod(int data) {
+    public node(int data) {
         this.data = data;
         this.left = null;
         this.right = null;
+    }
+
+    public node newTree(int val) {
+        return new node(val);
     }
 }
 
 public class Binary {
 
-    private BinaryTreeNod root;
+    private node root;
 
     public Binary() {
         this.root = null;
     }
 
-    public void insertIntoTree(int data) {
+    public void insertInto(int data) {
 
-        BinaryTreeNod newNode = new BinaryTreeNod(data);
+        node newNode = new node(data);
 
         if (root == null) {
             root = newNode;
         } else {
-            BinaryTreeNod currentNode = root;
+            node currentNode = root;
             while (currentNode != null) {
                 if (data < currentNode.data) {
                     currentNode = currentNode.left;
                     if (currentNode == null) {
-                        currentNode.left = newNode;
+                        currentNode = newNode;
+                        break;
                     }
                 } else if (data > currentNode.data) {
                     currentNode = currentNode.right;
                     if (currentNode == null) {
-                        currentNode.right = newNode;
+                        currentNode = newNode;
+                        break;
                     }
                 }
             }
         }
     }
 
-    public boolean isEmpty() {
-        return root == null;
-    }
-
-    public BinaryTreeNod search(int data) {
-        return BinaryTreeSearch(root, data);
-    }
-
-    public BinaryTreeNod BinaryTreeSearch(BinaryTreeNod node, int data) {
+    public node BinaryTreeSearch(node node, int data) {
         if (node == null)
             return null;
         if (data == node.data) {
@@ -69,18 +67,7 @@ public class Binary {
 
     public static void main(String[] args) {
 
-        BinaryTree binaryTree = new BinaryTree();
-        binaryTree.insertIntoTree(12);
-        binaryTree.insertIntoTree(1);
-        binaryTree.insertIntoTree(2);
-        binaryTree.insertIntoTree(45);
-        binaryTree.insertIntoTree(24);
-        binaryTree.insertIntoTree(68);
-        binaryTree.insertIntoTree(89);
-        binaryTree.insertIntoTree(23);
 
-        BinaryTreeNod node = binaryTree.search(89);
-        System.out.println(node.data);
 
     }
 }
