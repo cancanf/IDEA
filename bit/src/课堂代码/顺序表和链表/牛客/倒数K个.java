@@ -1,6 +1,5 @@
 package 课堂代码.顺序表和链表.牛客;
 
-import 课堂代码.顺序表和链表.leetcode.ListNode;
 
 public class 倒数K个 {
     public static void main(String[] args) {
