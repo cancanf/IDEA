@@ -9,8 +9,8 @@ public class P12_14_3_3 {
 //        System.out.println(Integer.toBinaryString(input));
         int sum = 0;
         System.out.println(Integer.toBinaryString(input));
-        while(input!=0){
-            input=input&(input-1);
+        while (input != 0) {
+            input = input & (input - 1);
             sum++;
         }
         System.out.println(sum);

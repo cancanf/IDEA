@@ -7,9 +7,9 @@ public class P12_14_3_7 {
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
         for (int i = 0; i < n; i++) {
-                System.out.println();
+            System.out.println();
             for (int j = 0; j < n; j++) {
-                System.out.printf(i + "*" + j + "=" + (i*j)+"\t");
+                System.out.printf(i + "*" + j + "=" + (i * j) + "\t");
             }
         }
     }

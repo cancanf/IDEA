@@ -9,7 +9,7 @@ public class toucha {
         String temp = in.next();
         ListNode head = new ListNode();
 
-        while(!temp.equals("#")){
+        while (!temp.equals("#")) {
 
             ListNode node = new ListNode(temp);
             node.next = head.next;

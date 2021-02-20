@@ -7,15 +7,15 @@ public class P2 {
     }
 
     public static int searchInsert(int[] nums, int target) {
-        int begin=0,zhong=-1,end= nums.length-1,ans = nums.length;
-        while(begin <= end){
-            zhong = (begin+end)/2;
-            if(target<nums[zhong]){
-                end = zhong-1;
+        int begin = 0, zhong = -1, end = nums.length - 1, ans = nums.length;
+        while (begin <= end) {
+            zhong = (begin + end) / 2;
+            if (target < nums[zhong]) {
+                end = zhong - 1;
                 ans = zhong;
-            }else if(target>nums[zhong]){
-                begin = zhong+1;
-            }else if(target == nums[zhong]){
+            } else if (target > nums[zhong]) {
+                begin = zhong + 1;
+            } else if (target == nums[zhong]) {
                 return zhong;
             }
         }

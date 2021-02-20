@@ -13,10 +13,10 @@ public class BinaryTree {
     }
 
     private static void printTree(TreeNode p) {
-        if(p!=null){
-        printTree(p.left);
-        System.out.println(p.Date);
-        printTree(p.right);
-    }
+        if (p != null) {
+            printTree(p.left);
+            System.out.println(p.Date);
+            printTree(p.right);
+        }
     }
 }

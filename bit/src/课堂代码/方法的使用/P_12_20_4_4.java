@@ -11,6 +11,7 @@ public class P_12_20_4_4 {
             System.out.print(temp + " ");
         }
     }
+
     private static int[] sort(int[] ints1) {
         int[] ints2 = new int[20];
         int i = 0, j = ints1.length - 1;

@@ -14,12 +14,12 @@ public class DemoArrays {
         Arrays.sort(arr, new Comparator<Person>() {
             @Override
             public int compare(Person o1, Person o2) {
-                return o1.getAge()-o2.getAge();
+                return o1.getAge() - o2.getAge();
             }
         });
 
-        Arrays.sort(arr,(Person o1,Person o2)->{
-            return o1.getAge()-o2.getAge();
+        Arrays.sort(arr, (Person o1, Person o2) -> {
+            return o1.getAge() - o2.getAge();
         });
 
         Arrays.sort(arr, (o1, o2) -> o1.getAge() - o2.getAge());

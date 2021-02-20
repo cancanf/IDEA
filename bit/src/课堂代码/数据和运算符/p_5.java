@@ -6,14 +6,14 @@ public class p_5 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         for (int j = 0; j < 4; j++) {
-            int i =in.nextInt();
-            if(i>=56){
+            int i = in.nextInt();
+            if (i >= 56) {
                 System.out.println("老年");
-            }else if(i>=29){
+            } else if (i >= 29) {
                 System.out.println("中年");
-            }else if(i>=19){
+            } else if (i >= 19) {
                 System.out.println("青年");
-            }else{
+            } else {
                 System.out.println("少年");
             }
         }

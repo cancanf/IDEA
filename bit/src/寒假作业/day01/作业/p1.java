@@ -12,8 +12,8 @@ public class p1 {
         char[] chars = str.toCharArray();
         String s = "";
         for (int i = 0; i < chars.length; i++) {
-            if(chars[i]>='A' && chars[i]<='Z'){
-                chars[i]+='a'-'A';
+            if (chars[i] >= 'A' && chars[i] <= 'Z') {
+                chars[i] += 'a' - 'A';
             }
             s = s + chars[i];
         }

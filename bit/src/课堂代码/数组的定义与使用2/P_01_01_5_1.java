@@ -14,34 +14,34 @@ public class P_01_01_5_1 {
         long begin1 = System.currentTimeMillis();
         bubble(ints);
         long end1 = System.currentTimeMillis();
-        System.out.println(end1-begin1);
+        System.out.println(end1 - begin1);
         System.out.println(Arrays.toString(ints));
         //降序
         long begin2 = System.currentTimeMillis();
         bubblelow(ints);
         long end2 = System.currentTimeMillis();
-        System.out.println(end2-begin2);
+        System.out.println(end2 - begin2);
         System.out.println(Arrays.toString(ints));
         //改进
         long begin3 = System.currentTimeMillis();
         bubblesort(ints);
         long end3 = System.currentTimeMillis();
-        System.out.println(end3-begin3);
+        System.out.println(end3 - begin3);
         System.out.println(Arrays.toString(ints));
     }
+
     //改进
     private static void bubblesort(int[] ints) {
         boolean flag = false;
         for (int i = 0; i < ints.length; i++) {
             for (int j = 0; j < ints.length - 1 - i; j++) {
-                if (ints[j] > ints[j + 1])
-                {
+                if (ints[j] > ints[j + 1]) {
                     int tmp = ints[j];
                     ints[j] = ints[j + 1];
                     ints[j + 1] = tmp;
                     flag = true;
                 }
-                if(!flag){
+                if (!flag) {
                     break;
                 }
             }
@@ -55,7 +55,7 @@ public class P_01_01_5_1 {
         int temp;
         for (int i = 0; i < ints.length; i++) {
             for (int j = i; j < ints.length; j++) {
-                if(ints[i]<ints[j]){
+                if (ints[i] < ints[j]) {
                     temp = ints[i];
                     ints[i] = ints[j];
                     ints[j] = temp;
@@ -70,7 +70,7 @@ public class P_01_01_5_1 {
         int temp;
         for (int i = 0; i < ints.length; i++) {
             for (int j = i; j < ints.length; j++) {
-                if(ints[i]>ints[j]){
+                if (ints[i] > ints[j]) {
                     temp = ints[i];
                     ints[i] = ints[j];
                     ints[j] = temp;

@@ -10,12 +10,12 @@ public class copy2 {
         long st1 = System.currentTimeMillis();
         FileInputStream fis = new FileInputStream("D:\\JAVA\\IDEA项目\\IDEA\\src\\blackhouse\\IO流\\复制文件案例\\01.png");
         FileOutputStream fos = new FileOutputStream("D:\\JAVA\\IDEA项目\\IDEA\\src\\blackhouse\\IO流\\复制文件案例\\02.png");
-            byte[] bytes = new byte[1024];
-            while ((fis.read(bytes)) != -1) {
-                fos.write(bytes);
-            }
-            fis.close();
-            fos.close();
+        byte[] bytes = new byte[1024];
+        while ((fis.read(bytes)) != -1) {
+            fos.write(bytes);
+        }
+        fis.close();
+        fos.close();
 
         long st2 = System.currentTimeMillis();
         System.out.println(st2 - st1);

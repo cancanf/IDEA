@@ -9,7 +9,7 @@ public class P_12_20_4_5 {
     }
 
     private static long jiecheng(int nextInt) {
-        long temp=1;
+        long temp = 1;
         for (int i = 1; i <= nextInt; i++) {
             temp *= i;
         }

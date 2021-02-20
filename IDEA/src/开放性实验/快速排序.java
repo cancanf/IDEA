@@ -52,8 +52,8 @@ public class 快速排序 {
                 }
             }
             array[i] = x;
-            quick_sort(array, l, i );
-            quick_sort(array, i + 1 , r);
+            quick_sort(array, l, i);
+            quick_sort(array, i + 1, r);
         }
     }
 }

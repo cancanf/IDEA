@@ -8,13 +8,13 @@ public class P12_14_3_5 {
         String password = "123456789";
 
         for (int i = 1; i <= 3; i++) {
-            System.out.println("请第"+ i + "次输入密码");
-            if(password.equals(in.nextLine())){
+            System.out.println("请第" + i + "次输入密码");
+            if (password.equals(in.nextLine())) {
                 System.out.println("密码正确");
                 break;
-            }else{
+            } else {
                 System.out.println("密码错误\n");
-                if(i==3)
+                if (i == 3)
                     System.out.println("错误三次 ,程序退出");
             }
         }

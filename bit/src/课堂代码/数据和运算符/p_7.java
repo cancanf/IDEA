@@ -6,15 +6,15 @@ import java.util.Scanner;
 public class p_7 {
     public static void main(String[] args) {
         Random random = new Random();
-        int a = random.nextInt(100)+1;//数字范围在1-100之间
+        int a = random.nextInt(100) + 1;//数字范围在1-100之间
         Scanner in = new Scanner(System.in);
-        while(true){
+        while (true) {
             int b = in.nextInt();
-            if(b>a){
+            if (b > a) {
                 System.out.println("大了");
-            }else if(b<a){
+            } else if (b < a) {
                 System.out.println("小了");
-            }else {
+            } else {
                 System.out.println("猜中了");
                 break;
             }

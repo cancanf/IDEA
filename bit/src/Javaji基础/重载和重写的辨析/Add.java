@@ -7,7 +7,7 @@ public class Add {
         this.a = a;
     }
 
-    public void print(){
-      System.out.println("没重写");
-  }
+    public void print() {
+        System.out.println("没重写");
+    }
 }

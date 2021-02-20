@@ -6,10 +6,10 @@ public class p_8 {
             double sum = 0;
             int temp = i;
             for (int j = 0; j < 3; j++) {
-                sum += Math.pow(temp % 10,3);
+                sum += Math.pow(temp % 10, 3);
                 temp /= 10;
             }
-            if(sum == i){
+            if (sum == i) {
                 System.out.println(i);
             }
         }

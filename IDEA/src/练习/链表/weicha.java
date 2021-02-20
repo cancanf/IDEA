@@ -8,7 +8,7 @@ public class weicha {
         String temp = in.next();
         ListNode head = new ListNode();
         ListNode end = head;
-        while(!temp.equals("#")){
+        while (!temp.equals("#")) {
 
             ListNode node = new ListNode(temp);
             end.next = node;

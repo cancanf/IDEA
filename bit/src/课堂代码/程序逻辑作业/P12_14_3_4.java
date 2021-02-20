@@ -12,9 +12,9 @@ public class P12_14_3_4 {
         String result = Integer.toBinaryString(n);
         char[] chars = result.toCharArray();
         for (int i = 0; i < result.length(); i++) {
-            if(i%2==0){
-            list2.add(chars[i]);
-        }else {
+            if (i % 2 == 0) {
+                list2.add(chars[i]);
+            } else {
                 list1.add(chars[i]);
             }
         }

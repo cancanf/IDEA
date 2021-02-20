@@ -14,7 +14,7 @@ public class TreeNode {
         this.right = null;
     }
 
-    public TreeNode newTreeNode(int date){
+    public TreeNode newTreeNode(int date) {
         return new TreeNode(date);
     }
 

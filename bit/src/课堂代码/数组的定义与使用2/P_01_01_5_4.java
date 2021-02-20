@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class P_01_01_5_4 {
     public static void main(String[] args) {
-        int[] a = {1,2,3,4,5,6,7,8,9};
+        int[] a = {1, 2, 3, 4, 5, 6, 7, 8, 9};
         int[] b = copyOf(a);
         int[] c = a;
         a[0] = 100;
@@ -16,6 +16,6 @@ public class P_01_01_5_4 {
     }
 
     private static int[] copyOf(int[] a) {
-       return Arrays.copyOf(a,a.length);
+        return Arrays.copyOf(a, a.length);
     }
 }
