@@ -25,7 +25,7 @@ public class BookList {
 
 
     public void init() {
-        File file = new File("D:\\JAVA\\IDEA项目\\bit\\src\\课堂代码\\resetBookSystem\\BookDate.txt");
+        File file = new File("bit/src/课堂代码/图书管理系统/resetBookSystem/BookDate.txt");
 
         BufferedReader reader = null;
         Book endbook = books;

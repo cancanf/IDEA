@@ -12,7 +12,7 @@ public class ExitOperation implements IOperation {
     public void work(BookList bookList) {
         Book end = bookList.getBooks();
         end = end.nextbook;
-        File file = new File("D:\\JAVA\\IDEA项目\\bit\\src\\课堂代码\\resetBookSystem\\BookDate.txt");
+        File file = new File("bit/src/课堂代码/图书管理系统/resetBookSystem/BookDate.txt");
         BufferedWriter writer = null;
         try {
             writer = new BufferedWriter(new FileWriter(file));
