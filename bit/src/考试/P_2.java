@@ -1,6 +1,4 @@
-package 考试.第一次JavaSE;
-
-import java.util.Iterator;
+package 考试;
 
 class ListNode {
     int val;

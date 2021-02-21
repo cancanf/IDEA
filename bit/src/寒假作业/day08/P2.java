@@ -2,22 +2,30 @@ package 寒假作业.day08;
 
 public class P2 {
     public static void main(String[] args) {
+        int[] a = {1, 2};
+        System.out.println(thirdMax(a));
 
     }
 
-    public int thirdMax(int[] nums) {
-        int first = 0, secend = 0, third = 0;
+    public static int thirdMax(int[] nums) {
+        long first = (long) Integer.MIN_VALUE - 1, secend = (long) Integer.MIN_VALUE - 1, third = (long) Integer.MIN_VALUE - 1;
         for (int i : nums) {
             if (i > third && i < secend) {
                 third = i;
-            }
-            if (i > secend && i < first) {
+            } else if (i > secend && i < first) {
+                third = secend;
                 secend = i;
-            }
-            if (i > first) {
+            } else if (i > first) {
+                third = secend;
+                secend = first;
                 first = i;
             }
         }
-        return 1;
+
+        if (third != 0) {
+            return (int) third;
+        }
+        return (int) first;
+
     }
 }

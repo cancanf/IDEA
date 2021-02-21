@@ -1,4 +1,4 @@
-package 考试.第一次JavaSE;
+package 考试;
 
 import java.util.ArrayList;
 import java.util.Scanner;
