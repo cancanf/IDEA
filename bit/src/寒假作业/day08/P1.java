@@ -14,6 +14,7 @@ public class P1 {
             digits[i] = digits[i] % 10;
             if (digits[i] != 0) {
                 return digits;
+
             }
         }
         digits = new int[digits.length + 1];
