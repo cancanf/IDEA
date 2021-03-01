@@ -27,6 +27,7 @@ public class P2 {
                 end = moddle - 1;
             } else {
                 begin = moddle + 1;
+
             }
 
         }
