@@ -4,8 +4,8 @@ import java.util.Arrays;
 
 public class P2 {
     public static void main(String[] args) {
-        int[] nums = {1};
-        int target = 1;
+        int[] nums = {8, 8, 8, 8, 10};
+        int target = 8;
         int[] ints = searchRange(nums, target);
         System.out.println(ints[0] + "," + ints[1]);
 
@@ -17,12 +17,15 @@ public class P2 {
         while (begin <= end) {
             int moddle = (begin + end >> 1);
             if (nums[moddle] == target) {
-                i = moddle;
-                j = moddle;
-                while (nums[j] == target) {
+                i = begin;
+                while (i < end && nums[i] != target) {
+                    i++;
+                }
+                j = i;
+                while (j + 1 <= end && nums[j + 1] == target) {
                     j++;
                 }
-                return new int[]{i - 1, j - 1};
+                return new int[]{i, j};
             } else if (nums[moddle] > target) {
                 end = moddle - 1;
             } else {
