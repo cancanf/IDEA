@@ -2,6 +2,8 @@ package 课堂代码.顺序表和链表.leetcode.环形链表2;
 
 import 课堂代码.顺序表和链表.leetcode.ListNode;
 
+import java.util.HashMap;
+
 public class detectCycle {
     public static void main(String[] args) {
         ListNode listNode1 = new ListNode(1);
@@ -14,10 +16,11 @@ public class detectCycle {
         listNode3.next = listNode4;
         listNode4.next = listNode5;
         listNode5.next = listNode3;
-        System.out.println(detectCycle(listNode1));
+        System.out.println(detectCycle(listNode1).val);
     }
 
     public static ListNode detectCycle(ListNode head) {
+/*
         if (head == null) {
             return null;
         }
@@ -36,5 +39,18 @@ public class detectCycle {
             }
         }
         return null;
+*/
+        ListNode per = head;
+        int i = 0;
+        HashMap<ListNode, Integer> hashMap = new HashMap<>();
+        while (per != null) {
+            if (hashMap.containsKey(per)) {
+                return per;
+            }
+            hashMap.put(per, i++);
+            per = per.next;
+        }
+        return null;
+
     }
 }
