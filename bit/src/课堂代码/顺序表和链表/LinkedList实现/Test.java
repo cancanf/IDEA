@@ -30,13 +30,22 @@ public class Test {
         linkedList.add(0, 1);
         linkedList.add(1, 2);
         linkedList.add(2, 3);
-        linkedList.add(1, 4);
+        linkedList.add(3, 4);
 //        linkedList.add(-10,20);
         //1 2 4 2
-        linkedList.removeFirst();
+//        linkedList.removeFirst();
         //4 2 3
-        linkedList.removeLast();
+//        linkedList.removeLast();
         //4 2
+//        linkedList.removeByIndex(0);
+//        linkedList.removeByIndex(3);
+//        linkedList.removeByIndex(2);
+//        linkedList.removeByValue(3);
+//        System.out.println(linkedList.get(0));
+//        System.out.println(linkedList.get(3));
+        linkedList.set(0, 100);
+
+
         System.out.println(linkedList.toString());
         System.out.println("长度为: " + linkedList.getLenth());
 

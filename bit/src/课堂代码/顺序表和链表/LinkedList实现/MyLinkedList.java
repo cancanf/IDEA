@@ -135,7 +135,11 @@ public class MyLinkedList {
             removeLast();
             return;
         }
-        //没写完.....
+        Node pervnode = getNode(index - 1);
+        Node nextnode = pervnode.next.next;
+        pervnode.next = nextnode;
+        nextnode.prev = pervnode;
+        lenth--;
 
 
     }
@@ -164,7 +168,11 @@ public class MyLinkedList {
     //得到指定节点的值
     public int get(int index) {
         Node node = getNode(index);
-        return node.val;
+        if (node != null) {
+            return node.val;
+        } else {
+            return -1;
+        }
     }
 
     //查找值所对应下标
