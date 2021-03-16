@@ -1,6 +1,8 @@
-package 课堂代码.数据结构.课件练习.二叉树;
+package 课堂代码.数据结构.课件练习.二叉树.二叉树构建;
 
-import 寒假作业.day01.练习.B;
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.Queue;
 
 class Node {
     String val;
@@ -60,6 +62,24 @@ public class BinaryTree {
         postOrder(root.left);
         postOrder(root.right);
         System.out.print(root.val + " ");
+    }
+
+    //层序遍历
+    public static void tierOrder(Node root) {
+        Queue<Node> queue = new LinkedList<>();
+        if (root != null) {
+            queue.offer(root);
+        }
+        while (!queue.isEmpty()) {
+            System.out.println(queue.element().val);
+            if (queue.element().left != null) {
+                queue.offer(queue.element().left);
+            }
+            if (queue.element().right != null) {
+                queue.offer(queue.element().right);
+            }
+            queue.remove();
+        }
     }
 
     //使用成员变量求树的元素个数
@@ -161,6 +181,7 @@ public class BinaryTree {
 //        System.out.println(BinaryTree.getLeafSize2(root));
 //        System.out.println(BinaryTree.getKLevelSize(root, 4));
 //        System.out.println(BinaryTree.getHeight(root));
-        System.out.println(BinaryTree.find(root, "D"));
+//        System.out.println(BinaryTree.find(root, "D"));
+        BinaryTree.tierOrder(root);
     }
 }
