@@ -1,6 +1,5 @@
 package 课堂代码.数据结构.课件练习.二叉树.二叉树构建;
 
-import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
 
