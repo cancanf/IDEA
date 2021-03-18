@@ -4,7 +4,13 @@ import 课堂代码.数据结构.课件练习.二叉树.TreeNode;
 
 public class text {
     public boolean isSubtree(TreeNode s, TreeNode t) {
-        return false;
+        if (t == null) {
+            return true;
+        }
+        if (s == null) {
+            return false;
+        }
+        return isSameTree(s, t) || isSubtree(s.left, t) || isSubtree(s.right, t);
     }
 
     public boolean isSameTree(TreeNode p, TreeNode q) {
@@ -16,4 +22,5 @@ public class text {
         }
         return isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
     }
+
 }
