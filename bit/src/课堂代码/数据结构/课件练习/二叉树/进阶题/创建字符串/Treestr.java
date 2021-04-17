@@ -19,8 +19,12 @@ public class Treestr {
 
     }
 
+    public static StringBuilder builder = new StringBuilder();
+
     public static String tree2str(TreeNode t) {
+        //题解版
         //如果当前节点为空
+       /*
         if (t == null)
             return "";
         //左右子树为空.
@@ -30,7 +34,32 @@ public class Treestr {
         if (t.right == null)
             return t.val + "(" + tree2str(t.left) + ")";
         return t.val + "(" + tree2str(t.left) + ")(" + tree2str(t.right) + ")";
-
         //如果当前节点有左右子树,在两个子树的结果外加上一个(  左子树  右子树  )
+        */
+
+        if (t == null) {
+            return "";
+        }
+        helper(t);
+        //第一个节点不需要括号包括
+        builder.deleteCharAt(0);
+        builder.deleteCharAt(builder.length() - 1);
+        return builder.toString();
+    }
+
+    private static void helper(TreeNode root) {
+        if (root == null) {
+            return;
+        }
+        builder.append("(");
+        builder.append(root.val);
+        helper(root.left);
+        //左节点为空,且有右节点.要增加个()表示左子树为空
+        if (root.left == null && root.right != null) {
+            builder.append("()");
+        }
+        //递归右子树
+        helper(root.right);
+        builder.append(")");
     }
 }

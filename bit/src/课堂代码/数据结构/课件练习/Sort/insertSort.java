@@ -20,19 +20,19 @@ public class insertSort {
         //从数组第二个元素开始向后遍历
         for (int bound = 1; bound < arr.length; bound++) {
             //用 V 存储
-            int v = arr[bound];
-            int cur = bound - 1;
+            int temp = arr[bound];
             //向前依次寻找合适的插入位置
-            for (; cur >= 0; cur--) {
+            for (int cur = bound - 1; cur >= 0; cur--) {
                 //如果插入位置的值大于V ,表示需要交换顺序
-                if (arr[cur] > v) {
-                    v = arr[cur];
-                    arr[cur] = arr[bound];
-                    arr[bound] = v;
+                if (arr[cur] > temp) {
+                    arr[bound] = arr[cur];
+                    arr[cur] = temp;
+                } else {
+                    break;
                 }
             }
-        }
 
+        }
     }
 
 }
