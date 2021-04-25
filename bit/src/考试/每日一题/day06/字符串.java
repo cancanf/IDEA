@@ -1,6 +1,6 @@
 package 考试.每日一题.day06;
 
-public class zifuchuan {
+public class 字符串 {
     public static void main(String[] args) {
         String s = "0";
         int i = StrToInt(s);

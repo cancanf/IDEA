@@ -1,13 +1,11 @@
 package 考试.每日一题.day01;
 
-import java.io.Serializable;
 import java.util.Arrays;
 import java.util.Scanner;
 
 public class 组队竞赛 {
     public static void main(String[] args) {
 
-        System.out.println(100 % 3.0);
         Scanner in = new Scanner(System.in);
         while (in.hasNext()) {
             int n = in.nextInt();
@@ -27,4 +25,5 @@ public class 组队竞赛 {
             System.out.println(sum);
         }
     }
+
 }
