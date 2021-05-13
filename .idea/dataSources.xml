@@ -1,13 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="阿里云数据库" uuid="03438fa8-0271-44de-b23b-81effdab7151">
-      <driver-ref>mysql.8</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://8.136.14.82:3306</jdbc-url>
-      <working-dir>$ProjectFileDir$</working-dir>
-    </data-source>
     <data-source source="LOCAL" name="MySQL - @localhost" uuid="3dfd4132-8ff1-485d-9e19-738e01f22d35">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
