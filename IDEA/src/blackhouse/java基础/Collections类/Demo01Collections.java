@@ -1,4 +1,4 @@
-package blackhouse.Collections类;
+package blackhouse.java基础.Collections类;
 
 import java.util.ArrayList;
 import java.util.Collections;

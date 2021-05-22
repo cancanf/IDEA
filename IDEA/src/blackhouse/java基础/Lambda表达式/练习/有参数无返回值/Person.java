@@ -1,4 +1,4 @@
-package Lambda表达式.练习.有参数无返回值;
+package blackhouse.java基础.Lambda表达式.练习.有参数无返回值;
 
 public class Person {
     private String name;

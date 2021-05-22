@@ -1,14 +1,14 @@
-package Lambda表达式.练习.无参数无返回值;
+package blackhouse.java基础.Lambda表达式.练习.无参数无返回值;
 
 public class InvokeCook {
 
-    public static void invokeCook(Cook cook) {
+    public static void invokeCook(Lambda表达式.练习.无参数无返回值.Cook cook) {
         cook.makeFood();
     }
 
     public static void main(String[] args) {
 
-        invokeCook(new Cook() {
+        invokeCook(new Lambda表达式.练习.无参数无返回值.Cook() {
             @Override
             public void makeFood() {
                 System.out.println("吃饭了");

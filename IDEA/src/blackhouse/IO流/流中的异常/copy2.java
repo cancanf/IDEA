@@ -1,7 +1,6 @@
 package blackhouse.IO流.流中的异常;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 

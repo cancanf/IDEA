@@ -9,7 +9,6 @@ public class RunnableOmpl implements Runnable {
         while (true) {
             synchronized (obj) {
                 if (ticket > 0) {
-
                     System.out.println(Thread.currentThread().getName() + "->>>>" + "正在卖第" + ticket + "张票");
                     ticket--;
                 }

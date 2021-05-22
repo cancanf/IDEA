@@ -1,4 +1,4 @@
-package blackhouse.HashsetSavePerson;
+package blackhouse.java基础.HashsetSavePerson;
 
 import java.util.HashSet;
 import java.util.LinkedHashSet;

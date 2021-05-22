@@ -1,6 +1,9 @@
 package blackhouse.p298.上传文件案例;
 
-import java.io.*;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
 import java.net.Socket;
 
 public class TCPClient {

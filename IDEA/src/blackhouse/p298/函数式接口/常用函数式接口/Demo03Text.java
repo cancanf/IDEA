@@ -1,7 +1,5 @@
 package blackhouse.p298.函数式接口.常用函数式接口;
 
-import org.w3c.dom.ls.LSOutput;
-
 import java.util.function.Consumer;
 
 public class Demo03Text {

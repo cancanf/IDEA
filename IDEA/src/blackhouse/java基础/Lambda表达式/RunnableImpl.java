@@ -1,4 +1,4 @@
-package Lambda表达式;
+package blackhouse.java基础.Lambda表达式;
 
 public class RunnableImpl implements Runnable {
 

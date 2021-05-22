@@ -3,7 +3,6 @@ package blackhouse.p298.web;
 import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
-import java.util.HashMap;
 
 public class TCPServer {
     public static void main(String[] args) throws IOException {

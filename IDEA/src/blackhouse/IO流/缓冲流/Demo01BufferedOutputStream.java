@@ -1,6 +1,8 @@
 package blackhouse.IO流.缓冲流;
 
-import java.io.*;
+import java.io.BufferedOutputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
 
 public class Demo01BufferedOutputStream {
     public static void main(String[] args) throws IOException {

@@ -1,4 +1,4 @@
-package blackhouse.HashsetSavePerson;
+package blackhouse.java基础.HashsetSavePerson;
 
 public class TwstMath {
     public static void main(String[] args) {

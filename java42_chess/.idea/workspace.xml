@@ -1,0 +1,943 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="java42_chess:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ec3060b7-d001-46f5-b19d-b63aefd60f00" name="默认变更列表" comment="">
+      <change afterPath="$PROJECT_DIR$/../Autobuy/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Autobuy/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Autobuy/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Autobuy/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Autobuy/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Autobuy/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Autobuy/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Autobuy/src/main/java/JDbuy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Autobuy/target/classes/JDbuy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Databases/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Databases/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Databases/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Databases/.idea/dataSources/d399d201-471c-45ff-98e5-dbcd68aa496f.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Databases/.idea/dataSources/d399d201-471c-45ff-98e5-dbcd68aa496f/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Databases/.idea/dataSources/d399d201-471c-45ff-98e5-dbcd68aa496f/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Databases/.idea/dataSources/d399d201-471c-45ff-98e5-dbcd68aa496f/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Databases/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Databases/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Databases/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Databases/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Databases/DataBasesTest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IDEA/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bit/src/考试/每日一题/day23/jvli.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bit/src/考试/每日一题/day23/redPackage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bit/src/考试/每日一题/day24/年终奖.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/Javaji基础/LifeCycle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/Javaji基础/SystemUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/Javaji基础/多态/Animal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/Javaji基础/多态/Cat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/Javaji基础/多态/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/Javaji基础/字符串/TestString.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/Javaji基础/字符串/Text.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/Javaji基础/字符串/Textbianyi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/Javaji基础/字符串/字符串拼接效率/TextString.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/Javaji基础/抽象类/inter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/Javaji基础/抽象类/text.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/寒假作业/day01/作业/p1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/寒假作业/day01/作业/p2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/寒假作业/day01/练习/A.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/寒假作业/day01/练习/B.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/寒假作业/day01/练习/Main$Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/寒假作业/day01/练习/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/寒假作业/day01/练习/Text.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/寒假作业/day03/p1_2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/寒假作业/day03/p1_3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/寒假作业/day03/p2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/寒假作业/day03/p2_2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/寒假作业/day03/p2_3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/寒假作业/day04/p1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/寒假作业/day04/p2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/寒假作业/day05/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/寒假作业/day05/p1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/寒假作业/day05/p2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/寒假作业/day06/P2Stack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/寒假作业/day06/p1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/寒假作业/day06/p2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/寒假作业/day06/test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/寒假作业/day07/P1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/寒假作业/day07/P1_2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/寒假作业/day07/P2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/寒假作业/day08/P1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/寒假作业/day08/P2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/寒假作业/day09/P1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/寒假作业/day09/P1_2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/寒假作业/day09/P2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/寒假作业/day10/P1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/寒假作业/day10/P2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/寒假作业/day11/Demo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/寒假作业/day11/P2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/寒假作业/day11/P3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/寒假作业/day12/P1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/寒假作业/day12/P2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/寒假作业/day13/P1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/考试/数据结构/Test2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/考试/数据结构/test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/考试/每日一题/day01/删除公共字符.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/考试/每日一题/day01/组队竞赛.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/考试/每日一题/day02/倒置字符串.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/考试/每日一题/day02/排序子序列.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/考试/每日一题/day03/Child.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/考试/每日一题/day03/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/考试/每日一题/day03/出现次数超过一半的次数.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/考试/每日一题/day03/最长连续数字串.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/考试/每日一题/day04/计算糖果.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/考试/每日一题/day04/计算糖果2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/考试/每日一题/day04/进制转换.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/考试/每日一题/day05/Test$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/考试/每日一题/day05/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/考试/每日一题/day05/统计回文.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/考试/每日一题/day05/连续最大和.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/考试/每日一题/day06/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/考试/每日一题/day06/不要二.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/考试/每日一题/day06/字符串.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/考试/每日一题/day07/不要二.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/考试/每日一题/day07/最小公倍数.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/考试/每日一题/day08/n个数最小的K个$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/考试/每日一题/day08/n个数最小的K个.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/考试/每日一题/day08/删数.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/考试/每日一题/day09/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/考试/每日一题/day09/mowei.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/考试/每日一题/day09/shuzi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/考试/每日一题/day10/Fibonacci.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/考试/每日一题/day10/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/考试/每日一题/day10/qijiren$Robot.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/考试/每日一题/day10/qijiren.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/考试/每日一题/day11/zuida.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/考试/每日一题/day11/最近公共祖先.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/考试/每日一题/day12/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/考试/每日一题/day12/二进制插入.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/考试/每日一题/day12/查找组成一个偶数最接近的两个素数.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/考试/每日一题/day13/Test$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/考试/每日一题/day13/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/考试/每日一题/day13/参数解析.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/考试/每日一题/day13/跳石板.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/考试/每日一题/day14/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/考试/每日一题/day14/幸运的袋子.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/考试/每日一题/day14/计算日期到天数转换.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/考试/每日一题/day15/手套.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/考试/每日一题/day15/查找二进制.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/考试/每日一题/day17/X.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/考试/每日一题/day17/Y.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/考试/每日一题/day17/Z.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/考试/每日一题/day17/sanjiao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/考试/每日一题/day17/zhengshu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/考试/每日一题/day17/zhengshu2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/考试/每日一题/day18/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/考试/每日一题/day18/tongpeifu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/考试/每日一题/day18/tuzi2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/考试/每日一题/day19/qishui.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/考试/每日一题/day19/zichuan.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/考试/每日一题/day20/fanzhuan.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/考试/每日一题/day20/gongzichuan.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/考试/每日一题/day21/MP3光标.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/考试/每日一题/day21/xipai.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/考试/每日一题/day22/一个字符.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/考试/每日一题/day22/小易的升级之路.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/考试/每日一题/day23/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/考试/每日一题/day23/jvli.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/考试/每日一题/day23/redPackage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/bit/课堂代码/课后作业/图书管理系统/resetBookSystem/BookDate.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webObject/WebStudy/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webObject/WebStudy/.idea/artifacts/WebStudy_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webObject/WebStudy/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webObject/WebStudy/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webObject/WebStudy/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webObject/WebStudy/WebStudy.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webObject/WebStudy/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webObject/WebStudy/web/1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webObject/WebStudy/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webObject/WebStudy/web/css/1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webObject/WebStudy/web/img/background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webObject/WebStudy/web/img/feng.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webObject/WebStudy/web/img/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webObject/WebStudy/web/img/person.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webObject/WebStudy/web/pratise/business.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webObject/WebStudy/web/views/2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webObject/WebStudy/web/views/vir/2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webObject/servlet-study/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webObject/servlet-study/.idea/artifacts/servlet_study_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webObject/servlet-study/.idea/artifacts/servlet_study_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webObject/servlet-study/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webObject/servlet-study/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webObject/servlet-study/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webObject/servlet-study/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webObject/servlet-study/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webObject/servlet-study/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webObject/servlet-study/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webObject/servlet-study/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webObject/servlet-study/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webObject/servlet-study/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webObject/servlet-study/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webObject/servlet-study/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webObject/servlet-study/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webObject/servlet-study/servlet-study.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webObject/servlet-study/src/main/java/org/example/demo/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webObject/servlet-study/src/main/java/org/example/demo/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webObject/servlet-study/src/main/java/org/example/demo/Parent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webObject/servlet-study/src/main/java/org/example/demo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webObject/servlet-study/src/main/java/org/example/servlet/GotoServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webObject/servlet-study/src/main/java/org/example/servlet/HelloServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webObject/servlet-study/src/main/java/org/example/servlet/Login2Servlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webObject/servlet-study/src/main/java/org/example/servlet/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webObject/servlet-study/src/main/webapp/1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webObject/servlet-study/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webObject/servlet-study/src/main/webapp/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webObject/servlet-study/src/main/webapp/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webObject/servlet-study/src/main/webapp/login2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webObject/servlet-study/target/classes/org/example/demo/Child.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webObject/servlet-study/target/classes/org/example/demo/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webObject/servlet-study/target/classes/org/example/demo/Parent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webObject/servlet-study/target/classes/org/example/demo/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webObject/servlet-study/target/classes/org/example/servlet/GotoServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webObject/servlet-study/target/classes/org/example/servlet/HelloServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webObject/servlet-study/target/classes/org/example/servlet/Login2Servlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webObject/servlet-study/target/classes/org/example/servlet/LoginServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webObject/servlet-study/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webObject/servlet-study/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webObject/servlet-study/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webObject/servlet-study/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webObject/servlet-study/target/servlet-study-1.0-SNAPSHOT.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webObject/servlet-study/target/servlet-study-1.0-SNAPSHOT/1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webObject/servlet-study/target/servlet-study-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webObject/servlet-study/target/servlet-study-1.0-SNAPSHOT/WEB-INF/classes/org/example/demo/Child.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webObject/servlet-study/target/servlet-study-1.0-SNAPSHOT/WEB-INF/classes/org/example/demo/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webObject/servlet-study/target/servlet-study-1.0-SNAPSHOT/WEB-INF/classes/org/example/demo/Parent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webObject/servlet-study/target/servlet-study-1.0-SNAPSHOT/WEB-INF/classes/org/example/demo/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webObject/servlet-study/target/servlet-study-1.0-SNAPSHOT/WEB-INF/classes/org/example/servlet/GotoServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webObject/servlet-study/target/servlet-study-1.0-SNAPSHOT/WEB-INF/classes/org/example/servlet/HelloServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webObject/servlet-study/target/servlet-study-1.0-SNAPSHOT/WEB-INF/classes/org/example/servlet/Login2Servlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webObject/servlet-study/target/servlet-study-1.0-SNAPSHOT/WEB-INF/classes/org/example/servlet/LoginServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webObject/servlet-study/target/servlet-study-1.0-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.11.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webObject/servlet-study/target/servlet-study-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-2.11.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webObject/servlet-study/target/servlet-study-1.0-SNAPSHOT/WEB-INF/lib/jackson-databind-2.11.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webObject/servlet-study/target/servlet-study-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webObject/servlet-study/target/servlet-study-1.0-SNAPSHOT/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webObject/servlet-study/target/servlet-study-1.0-SNAPSHOT/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webObject/servlet-study/target/servlet-study-1.0-SNAPSHOT/login2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目/java42_chess/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目/java42_chess/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目/java42_chess/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目/java42_chess/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目/java42_chess/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目/java42_chess/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目/java42_chess/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目/java42_chess/src/main/java/test/TestThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目/java42_chess/src/main/java/test/TestWebSocket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目/java42_chess/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目/java42_chess/src/main/webapp/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目/java42_chess/target/classes/test/GsonTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目/java42_chess/target/classes/test/Pb.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目/java42_chess/target/classes/test/TestThread$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目/java42_chess/target/classes/test/TestThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目/java42_chess/target/classes/test/TestWebSocket$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目/java42_chess/target/classes/test/TestWebSocket.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目/java42_chess/target/java42_chess.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目/java42_chess/target/java42_chess/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目/java42_chess/target/java42_chess/WEB-INF/classes/test/TestThread$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目/java42_chess/target/java42_chess/WEB-INF/classes/test/TestThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目/java42_chess/target/java42_chess/WEB-INF/classes/test/TestWebSocket$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目/java42_chess/target/java42_chess/WEB-INF/classes/test/TestWebSocket.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目/java42_chess/target/java42_chess/WEB-INF/lib/gson-2.8.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目/java42_chess/target/java42_chess/WEB-INF/lib/mysql-connector-java-5.1.45.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目/java42_chess/target/java42_chess/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目/java42_chess/target/java42_chess/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目/java42_chess/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目/java42_chess/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目/java42_chess/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目/java42_chess/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEA/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA/src/blackhouse/IO流/复制文件案例/copy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEA/src/blackhouse/IO流/复制文件案例/copy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA/src/blackhouse/IO流/流中的异常/copy2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEA/src/blackhouse/IO流/流中的异常/copy2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA/src/blackhouse/IO流/缓冲流/Demo01BufferedOutputStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEA/src/blackhouse/IO流/缓冲流/Demo01BufferedOutputStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA/src/blackhouse/java基础/Collections类/Demo01Collections.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEA/src/blackhouse/java基础/Collections类/Demo01Collections.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA/src/blackhouse/java基础/HashsetSavePerson/Demo01LinkedHashSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEA/src/blackhouse/java基础/HashsetSavePerson/Demo01LinkedHashSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA/src/blackhouse/java基础/HashsetSavePerson/Demo02Hashtable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEA/src/blackhouse/java基础/HashsetSavePerson/Demo02Hashtable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA/src/blackhouse/java基础/HashsetSavePerson/Hashset.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEA/src/blackhouse/java基础/HashsetSavePerson/Hashset.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA/src/blackhouse/java基础/HashsetSavePerson/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEA/src/blackhouse/java基础/HashsetSavePerson/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA/src/blackhouse/java基础/HashsetSavePerson/TwstMath.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEA/src/blackhouse/java基础/HashsetSavePerson/TwstMath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA/src/blackhouse/java基础/Lambda表达式/Demo02Runnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEA/src/blackhouse/java基础/Lambda表达式/Demo02Runnable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA/src/blackhouse/java基础/Lambda表达式/DemoRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEA/src/blackhouse/java基础/Lambda表达式/DemoRunnable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA/src/blackhouse/java基础/Lambda表达式/RunnableImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEA/src/blackhouse/java基础/Lambda表达式/RunnableImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA/src/blackhouse/java基础/Lambda表达式/练习/无参数无返回值/Cook.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEA/src/blackhouse/java基础/Lambda表达式/练习/无参数无返回值/Cook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA/src/blackhouse/java基础/Lambda表达式/练习/无参数无返回值/InvokeCook.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEA/src/blackhouse/java基础/Lambda表达式/练习/无参数无返回值/InvokeCook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA/src/blackhouse/java基础/Lambda表达式/练习/有参数无返回值/DemoArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEA/src/blackhouse/java基础/Lambda表达式/练习/有参数无返回值/DemoArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA/src/blackhouse/java基础/Lambda表达式/练习/有参数无返回值/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEA/src/blackhouse/java基础/Lambda表达式/练习/有参数无返回值/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA/src/blackhouse/java基础/Lambda表达式/练习/有参数有返回值/Caiculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEA/src/Lambda表达式/练习/有参数有返回值/Caiculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA/src/blackhouse/java基础/Lambda表达式/练习/有参数有返回值/DemoCalcualtor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEA/src/blackhouse/java基础/Lambda表达式/练习/有参数有返回值/DemoCalcualtor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA/src/blackhouse/p298/web/TCPServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEA/src/blackhouse/p298/web/TCPServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA/src/blackhouse/p298/上传文件案例/TCPClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEA/src/blackhouse/p298/上传文件案例/TCPClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA/src/blackhouse/p298/函数式接口/常用函数式接口/Demo03Text.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEA/src/blackhouse/p298/函数式接口/常用函数式接口/Demo03Text.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/mysql-connector-java-5.1.47.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/Lambda表达式/Demo02Runnable$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/Lambda表达式/Demo02Runnable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/Lambda表达式/DemoRunnable$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/Lambda表达式/DemoRunnable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/Lambda表达式/RunnableImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/Lambda表达式/练习/无参数无返回值/Cook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/Lambda表达式/练习/无参数无返回值/InvokeCook$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/Lambda表达式/练习/无参数无返回值/InvokeCook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/Lambda表达式/练习/有参数无返回值/DemoArrays$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/Lambda表达式/练习/有参数无返回值/DemoArrays.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/Lambda表达式/练习/有参数无返回值/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/Lambda表达式/练习/有参数有返回值/Caiculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/Lambda表达式/练习/有参数有返回值/DemoCalcualtor$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/Lambda表达式/练习/有参数有返回值/DemoCalcualtor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/Collections类/Demo01Collections.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/HashsetSavePerson/Demo01LinkedHashSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/HashsetSavePerson/Demo02Hashtable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/HashsetSavePerson/Hashset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/HashsetSavePerson/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/HashsetSavePerson/TwstMath.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/IO流/Properties集合/1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/IO流/Properties集合/Demo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/IO流/复制文件案例/01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/IO流/复制文件案例/copy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/IO流/流中的异常/01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/IO流/流中的异常/1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/IO流/流中的异常/Demo01TryCatch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/IO流/流中的异常/copy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/IO流/流中的异常/copy2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/IO流/练习文本排序/1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/IO流/练习文本排序/2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/IO流/练习文本排序/Demo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/IO流/缓冲流/01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/IO流/缓冲流/1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/IO流/缓冲流/Demo01BufferedOutputStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/IO流/缓冲流/Demo02BufferedInputStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/IO流/缓冲流/Demo03BUfferedWriter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/IO流/缓冲流/Demo04BuffereReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/IO流/缓冲流/copy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/IO流/转换流/1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/IO流/转换流/2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/IO流/转换流/3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/IO流/转换流/Demo01PrintStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/IO流/转换流/Demo02OutputStreamWriter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/IO流/转换流/Demo03InputStreamReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/IO流/转换流/序列化/Demo01ObjectInputStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/IO流/转换流/序列化/Demo01ObjectOutputStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/IO流/转换流/序列化/Demo02PrintStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/IO流/转换流/序列化/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/IO流/转换流/序列化/person.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/IO流/转换流/序列化/序列化集合/Demo03Text.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/IO流/转换流/序列化/序列化集合/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/IO流/转换流/序列化/序列化集合/Person.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/IO流/输入流/1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/IO流/输入流/Demo01InputStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/IO流/输入流/Demo02InputStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/IO流/输入流/Demo02Reader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/IO流/输出流/1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/IO流/输出流/2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/IO流/输出流/3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/IO流/输出流/Demo01OutputStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/IO流/输出流/Demo01Writer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/IO流/输出流/Demo02OutputStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/IO流/输出流/Demo03OutputStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/IO流/输出流/Demo03WRITER.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/java基础/Collections类/Demo02Sort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/java基础/Collections类/Demo03sort$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/java基础/Collections类/Demo03sort$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/java基础/Collections类/Demo03sort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/java基础/Collections类/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/java基础/Collections类/Students.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/java基础/Lambda表达式/练习/省略格式/Demo01ArrayList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/java基础/Map集合/LinkedHashMao/Demo01LinkedHashMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/java基础/Map集合/练习/My.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/java基础/Map集合/集合/Demo01HashMapSavePerson.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/java基础/Map集合/集合/Demo01JDK9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/java基础/Map集合/集合/Demo01Map.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/java基础/Map集合/集合/Demo03EntrySet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/java基础/Map集合/集合/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/java基础/多线程/Lock/Demo01Ticket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/java基础/多线程/Lock/RunnableOmpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/java基础/多线程/Sleep/Demo01Sleep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/java基础/多线程/创建/Demo01InnerClassThread$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/java基础/多线程/创建/Demo01InnerClassThread$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/java基础/多线程/创建/Demo01InnerClassThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/java基础/多线程/创建/Demo01Runnable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/java基础/多线程/创建/Demo01Thread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/java基础/多线程/创建/MyThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/java基础/多线程/创建/RunnableImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/java基础/多线程/创建/RunnableImpl2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/java基础/多线程/唤醒机制/BaoZi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/java基础/多线程/唤醒机制/BaoZiPu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/java基础/多线程/唤醒机制/Chi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/java基础/多线程/唤醒机制/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/java基础/多线程/改变线程名称/Demo01SetThreadName.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/java基础/多线程/改变线程名称/MyThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/java基础/多线程/线程安全/同步代码块/Demo01Ticket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/java基础/多线程/线程安全/同步代码块/RunnableOmpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/java基础/多线程/线程安全/同步方法/Demo01Ticket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/java基础/多线程/线程安全/同步方法/RunnableOmpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/java基础/多线程/线程安全/安全问题的产生/Demo01Ticket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/java基础/多线程/线程安全/安全问题的产生/RunnableOmpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/java基础/多线程/线程池/RunnableImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/java基础/多线程/线程池/ThreadPool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/java基础/异常处理/Demo01/Exception/Demo01Exception.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/java基础/异常处理/Demo01/Exception/Demo01TryCatch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/java基础/异常处理/Demo01/Exception/Demo02Exception.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/java基础/异常处理/Demo01/Exception/Demo03Throw.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/java基础/异常处理/Demo01/Exception/Demo04Objects.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/java基础/异常处理/Demo01/Exception/Demo05Throws.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/java基础/异常处理/Demo01/Exception/TryCatchFinally.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/java基础/异常处理/Demo03/Exception/Demo01Exception.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/java基础/异常处理/Demo03/Exception/Demo01RegisterException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/java基础/异常处理/Demo03/Exception/Demo02RegisterException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/java基础/异常处理/Demo03/Exception/Fu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/java基础/异常处理/Demo03/Exception/RegisterException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/java基础/异常处理/Demo03/Exception/Zi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/java基础/文件操作/Demo01File.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/java基础/文件操作/Demo02File.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/java基础/文件操作/获取路径/Demo03File.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/java基础/文件操作/获取路径/Demo04File.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/java基础/文件操作/获取路径/Demo05File.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/java基础/文件操作/获取路径/Demo06File.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/java基础/递归/Demo01Recurison.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/java基础/递归/Demo02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/java基础/递归/过滤器/Demo01Filter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/java基础/递归/过滤器/Demo02Filter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/java基础/递归/过滤器/FilterImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/p298/TCP网络通信/TCPClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/p298/TCP网络通信/TCPServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/p298/web/TCPServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/p298/上传文件案例/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/p298/上传文件案例/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/p298/上传文件案例/TCPClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/p298/上传文件案例/TCPServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/p298/函数式接口/函数式接口/Demo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/p298/函数式接口/函数式接口/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/p298/函数式接口/函数式接口/MyFunctionalInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/p298/函数式接口/函数式接口/MyFunctionalInterfaceIMPL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/p298/函数式接口/函数式编程/Demo01Logger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/p298/函数式接口/函数式编程/Demo01Runnable$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/p298/函数式接口/函数式编程/Demo01Runnable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/p298/函数式接口/函数式编程/Demo02Comparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/p298/函数式接口/函数式编程/Demo02Lambda.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/p298/函数式接口/函数式编程/MessageBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/p298/函数式接口/常用函数式接口/Demo01Consumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/p298/函数式接口/常用函数式接口/Demo01Function.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/p298/函数式接口/常用函数式接口/Demo01Predicate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/p298/函数式接口/常用函数式接口/Demo01Supplier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/p298/函数式接口/常用函数式接口/Demo02AndThen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/p298/函数式接口/常用函数式接口/Demo02Predicate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/p298/函数式接口/常用函数式接口/Demo02Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/p298/函数式接口/常用函数式接口/Demo03Predivate_or.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/p298/函数式接口/常用函数式接口/Demo03Text.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/p298/函数式接口/常用函数式接口/Demo03Text2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/p298/函数式接口/常用函数式接口/Demo05Text.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/p298/函数式接口/常用函数式接口/Demo4Predicate_negate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/p298/函数式接口/常用函数式接口/MyPredicate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/p298/文件上传优化/TCPClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/p298/文件上传优化/TCPServer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blackhouse/p298/文件上传优化/TCPServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blue/PTA/T11_2/T7_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blue/PTA/不明/L1_001.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blue/PTA/不明/L1_002.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blue/PTA/不明/L1_003_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blue/PTA/不明/L1_004.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blue/PTA/不明/L1_005$Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blue/PTA/不明/L1_005.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blue/PTA/不明/L1_005_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blue/PTA/不明/L1_005_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blue/PTA/不明/L1_006_not.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blue/PTA/不明/L1_007.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blue/PTA/不明/L1_008.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blue/PTA/国庆/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blue/PTA/国庆/Main2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blue/PTA/比赛/悄悄关注7_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blue/PTA/比赛/训练.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blue/PTA/比赛/训练查.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blue/PTA/选拔赛/IDE.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blue/PTA/选拔赛/dead.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blue/PTA/选拔赛/喂猫$cat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blue/PTA/选拔赛/喂猫$tuijian.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blue/PTA/选拔赛/喂猫.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blue/PTA/选拔赛/回形针.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blue/PTA/选拔赛/心理阴影.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blue/PTA/选拔赛/摄氏度.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blue/PTA/选拔赛/素数对.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blue/PTA/选拔赛/素数对2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blue/PTA/选拔赛前热身/A乘以B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blue/PTA/选拔赛前热身/zuijia.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blue/PTA/选拔赛前热身/zuoweihao$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blue/PTA/选拔赛前热身/zuoweihao$person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blue/PTA/选拔赛前热身/zuoweihao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blue/PTA/选拔赛前热身/福到了.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blue/PTA/选拔赛前热身/计算指数.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blue/luogu/P1009.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blue/luogu/P1090$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blue/luogu/P1090.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blue/luogu/P1181.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blue/luogu/P1208.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blue/luogu/P1271.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blue/luogu/P1435.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blue/luogu/P1563$person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blue/luogu/P1563.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blue/luogu/P1601.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blue/luogu/P2670.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blue/luogu/p1303.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blue/牛客/NC13228.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blue/牛客/pop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blue/练习/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blue/蓝桥/D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blue/蓝桥/sanxianghe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blue/蓝桥/teshu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blue/蓝桥/waimai$dianpu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blue/蓝桥/waimai$dingdan.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blue/蓝桥/waimai.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blue/蓝桥/zichuan.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blue/蓝桥/分解.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blue/蓝桥/叶节点.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blue/试炼/ba.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blue/试炼/erchashu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blue/试炼/jiu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blue/试炼/liu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blue/试炼/shulie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blue/试炼/zhengshuhe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/blue/试炼/zichuan.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/com/intellij/uiDesigner/core/AbstractLayout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/com/intellij/uiDesigner/core/DimensionInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/com/intellij/uiDesigner/core/GridConstraints.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/com/intellij/uiDesigner/core/GridLayoutManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/com/intellij/uiDesigner/core/HorizontalInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/com/intellij/uiDesigner/core/LayoutState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/com/intellij/uiDesigner/core/Spacer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/com/intellij/uiDesigner/core/SupportCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/com/intellij/uiDesigner/core/Util.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/com/intellij/uiDesigner/core/VerticalInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/java课/图形界面/ExGui.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/java课/图形界面/FrameWithPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/java课/图形界面/MyFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/java课/图形界面/实验/ChangeGUI$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/java课/图形界面/实验/ChangeGUI$OKActionListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/java课/图形界面/实验/ChangeGUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/java课/图形界面/实验/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/java课/图形界面/实验/DemoMouseListener$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/java课/图形界面/实验/DemoMouseListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/java课/图形界面/实验/choice$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/java课/图形界面/实验/choice$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/java课/图形界面/实验/choice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/java课/图形界面/实验/main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/java课/实验七异常处理/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/java课/实验七异常处理/Demo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/java课/实验七异常处理/MyException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/java课/实验七异常处理/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/天梯赛2020/L1_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/天梯赛2020/L1_7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/天梯赛2020/L1_8$shu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/天梯赛2020/L1_8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/天梯赛2020/L2_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/开放性实验/二叉树/Binary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/开放性实验/二叉树/BinaryTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/开放性实验/二叉树/BinaryTreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/开放性实验/二叉树/递归调用/BinaryTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/开放性实验/二叉树/递归调用/TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/开放性实验/冒泡.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/开放性实验/堆排序.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/开放性实验/希尔排序.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/开放性实验/快速排序.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/开放性实验/数据.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/开放性实验/直接插入排序.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/开放性实验/简单选择.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/练习/链表/ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/练习/链表/toucha.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/练习/链表/weicha.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/ball/BallFrameNew$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/ball/BallFrameNew$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/ball/BallFrameNew.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/ball/ball2/Ball.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/ball/ball2/ListenerFrame$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/ball/ball2/ListenerFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/ball/ball2/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/ball/ball2/MyComponent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/ball/ball2/Paddle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/ball/ballNew/Ball$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/ball/ballNew/Ball$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/ball/ballNew/Ball.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/ball/ballNew/Klisten.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/ball/ballNew/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/ball/ballNew/bam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/ball/last/BallPanel$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/ball/last/BallPanel$Mou.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/ball/last/BallPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/ball/last/Date.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/ball/last/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/ball/last/ball.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/ball/last/zhuan.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/狂/Lesson5/JButtonDemo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/狂/Lesson5/JButtonDemo03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/狂/Lesson5/JPanelDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/狂/Lesson5/JScrollDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/狂/Lesson5/JbuttonDemo02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/狂/Lesson5/met.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/狂/lesson01/ExDemo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/狂/lesson01/ExDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/狂/lesson01/MyFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/狂/lesson01/TestFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/狂/lesson01/TestFrame2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/狂/lesson01/Testpanel$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/狂/lesson01/Testpanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/狂/lesson01/TextBorderL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/狂/lesson01/TextFlowLayout$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/狂/lesson01/TextFlowLayout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/狂/lesson01/TextGridLayout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/狂/lesson02/MyActionListrner2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/狂/lesson02/MyFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/狂/lesson02/MyMinitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/狂/lesson02/TestAction02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/狂/lesson02/TextText01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/狂/lesson02/计算器/修改/Calculator$MyCalculatorListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/狂/lesson02/计算器/修改/Calculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/狂/lesson02/计算器/修改/Text2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/狂/lesson02/计算器/原版/Calculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/狂/lesson02/计算器/原版/MiscalculateListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/狂/lesson02/计算器/原版/Text.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/狂/lesson03/KeyFrame$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/狂/lesson03/KeyFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/狂/lesson03/MyFrame$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/狂/lesson03/MyFrame$MyMouseListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/狂/lesson03/MyFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/狂/lesson03/MyPaint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/狂/lesson03/TestMouseListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/狂/lesson03/TestPaint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/狂/lesson03/TextKeyListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/狂/lesson04/DialogDemo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/狂/lesson04/DialogDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/狂/lesson04/IconDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/狂/lesson04/ImageIconDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/狂/lesson04/JframeDemo02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/狂/lesson04/MyDialogDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/狂/lesson04/met.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/狂/lesson06/TextComboboxDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/狂/lesson06/TextComboboxDemo02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/狂/lesson06/TextTextDemo03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/狂/lesson06/TextTextDemo04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/计算器/CalculatorPanel$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/计算器/CalculatorPanel$CommandAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/计算器/CalculatorPanel$InsertAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/计算器/CalculatorPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/计算器/弹球$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/计算器/弹球.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/课程贪吃蛇/Date.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/课程贪吃蛇/GamePanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/课程贪吃蛇/StarGame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/课程贪吃蛇/body.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/课程贪吃蛇/down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/课程贪吃蛇/food.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/课程贪吃蛇/header.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/课程贪吃蛇/left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/课程贪吃蛇/right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA/课程设计/课程贪吃蛇/up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/Lambda表达式/Demo02Runnable$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/Lambda表达式/Demo02Runnable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/Lambda表达式/DemoRunnable$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/Lambda表达式/DemoRunnable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/Lambda表达式/RunnableImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/Lambda表达式/练习/无参数无返回值/Cook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/Lambda表达式/练习/无参数无返回值/InvokeCook$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/Lambda表达式/练习/无参数无返回值/InvokeCook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/Lambda表达式/练习/有参数无返回值/DemoArrays$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/Lambda表达式/练习/有参数无返回值/DemoArrays.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/Lambda表达式/练习/有参数无返回值/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/Lambda表达式/练习/有参数有返回值/Caiculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/Lambda表达式/练习/有参数有返回值/DemoCalcualtor$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/Lambda表达式/练习/有参数有返回值/DemoCalcualtor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/blackhouse/Collections类/Demo01Collections.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/blackhouse/HashsetSavePerson/Demo01LinkedHashSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/blackhouse/HashsetSavePerson/Demo02Hashtable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/blackhouse/HashsetSavePerson/Hashset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/blackhouse/HashsetSavePerson/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/blackhouse/HashsetSavePerson/TwstMath.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/blackhouse/java基础/Collections类/Demo02Sort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/blackhouse/java基础/Collections类/Demo03sort$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/blackhouse/java基础/Collections类/Demo03sort$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/blackhouse/java基础/Collections类/Demo03sort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/blackhouse/java基础/Collections类/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/blackhouse/java基础/Collections类/Students.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/blackhouse/java基础/Lambda表达式/练习/省略格式/Demo01ArrayList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/blackhouse/java基础/Map集合/LinkedHashMao/Demo01LinkedHashMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/blackhouse/java基础/Map集合/练习/My.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/blackhouse/java基础/Map集合/集合/Demo01HashMapSavePerson.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/blackhouse/java基础/Map集合/集合/Demo01JDK9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/blackhouse/java基础/Map集合/集合/Demo01Map.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/blackhouse/java基础/Map集合/集合/Demo03EntrySet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/blackhouse/java基础/Map集合/集合/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/blackhouse/java基础/多线程/Lock/Demo01Ticket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/blackhouse/java基础/多线程/Lock/RunnableOmpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/blackhouse/java基础/多线程/Sleep/Demo01Sleep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/blackhouse/java基础/多线程/创建/Demo01InnerClassThread$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/blackhouse/java基础/多线程/创建/Demo01InnerClassThread$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/blackhouse/java基础/多线程/创建/Demo01InnerClassThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/blackhouse/java基础/多线程/创建/Demo01Runnable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/blackhouse/java基础/多线程/创建/Demo01Thread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/blackhouse/java基础/多线程/创建/MyThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/blackhouse/java基础/多线程/创建/RunnableImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/blackhouse/java基础/多线程/创建/RunnableImpl2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/blackhouse/java基础/多线程/唤醒机制/BaoZi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/blackhouse/java基础/多线程/唤醒机制/BaoZiPu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/blackhouse/java基础/多线程/唤醒机制/Chi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/blackhouse/java基础/多线程/唤醒机制/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/blackhouse/java基础/多线程/改变线程名称/Demo01SetThreadName.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/blackhouse/java基础/多线程/改变线程名称/MyThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/blackhouse/java基础/多线程/线程安全/同步代码块/Demo01Ticket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/blackhouse/java基础/多线程/线程安全/同步代码块/RunnableOmpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/blackhouse/java基础/多线程/线程安全/同步方法/Demo01Ticket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/blackhouse/java基础/多线程/线程安全/同步方法/RunnableOmpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/blackhouse/java基础/多线程/线程安全/安全问题的产生/Demo01Ticket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/blackhouse/java基础/多线程/线程安全/安全问题的产生/RunnableOmpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/blackhouse/java基础/多线程/线程池/RunnableImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/blackhouse/java基础/多线程/线程池/ThreadPool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/blackhouse/java基础/异常处理/Demo01/Exception/Demo01Exception.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/blackhouse/java基础/异常处理/Demo01/Exception/Demo01TryCatch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/blackhouse/java基础/异常处理/Demo01/Exception/Demo02Exception.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/blackhouse/java基础/异常处理/Demo01/Exception/Demo03Throw.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/blackhouse/java基础/异常处理/Demo01/Exception/Demo04Objects.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/blackhouse/java基础/异常处理/Demo01/Exception/Demo05Throws.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/blackhouse/java基础/异常处理/Demo01/Exception/TryCatchFinally.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/blackhouse/java基础/异常处理/Demo03/Exception/Demo01Exception.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/blackhouse/java基础/异常处理/Demo03/Exception/Demo01RegisterException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/blackhouse/java基础/异常处理/Demo03/Exception/Demo02RegisterException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/blackhouse/java基础/异常处理/Demo03/Exception/Fu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/blackhouse/java基础/异常处理/Demo03/Exception/RegisterException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/blackhouse/java基础/异常处理/Demo03/Exception/Zi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/blackhouse/java基础/文件操作/Demo01File.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/blackhouse/java基础/文件操作/Demo02File.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/blackhouse/java基础/文件操作/获取路径/Demo03File.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/blackhouse/java基础/文件操作/获取路径/Demo04File.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/blackhouse/java基础/文件操作/获取路径/Demo05File.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/blackhouse/java基础/文件操作/获取路径/Demo06File.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/blackhouse/java基础/递归/Demo01Recurison.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/blackhouse/java基础/递归/Demo02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/blackhouse/java基础/递归/过滤器/Demo01Filter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/blackhouse/java基础/递归/过滤器/Demo02Filter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IDEA1/blackhouse/java基础/递归/过滤器/FilterImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/untitled/L1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/untitled/L1_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/untitled/L1_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/untitled/L1_4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/untitled/L1_5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/untitled/L1_6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/untitled/L1_7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/untitled/L1_8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/untitled/L2_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/untitled/L2_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/天梯赛/天梯赛11_19/L7_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/天梯赛/天梯赛11_19/L7_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/天梯赛/天梯赛2020/L1_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/天梯赛/天梯赛2020/L1_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/天梯赛/天梯赛2020/L1_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/天梯赛/天梯赛2020/L1_4.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1sW4OfRoHskTxvUCsKjWf72Frym" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../项目/java42_chess" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="模块" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JAVA\IDEA项目\java42_chess\src\main\webapp\WEB-INF" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat 服务器.Tomcat 8.5.572">
+    <configuration name="TestThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.TestThread" />
+      <module name="java42_chess" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 8.5.572" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.572" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="BROWSER_ID" value="b2a9dca7-9d0b-4e1e-98a8-afb19c1328d2" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="java42_chess:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="9c786197-4506-497b-bc0a-28df13fe1a6a" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="3775" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="java42_chess:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.TestThread" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="ec3060b7-d001-46f5-b19d-b63aefd60f00" name="默认变更列表" comment="" />
+      <created>1620974980624</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1620974980624</updated>
+      <workItem from="1620974982260" duration="2930000" />
+      <workItem from="1621049775794" duration="4099000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
